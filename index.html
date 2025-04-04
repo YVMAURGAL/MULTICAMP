@@ -1,13 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MULTICAMP</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bienvenue chez MULTICAMP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>MULTICAMP</h1>
+    <p>Partez à l'aventure en famille, en toute liberté.</p>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#">À propos</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Votre voyage commence ici</h2>
+      <p>Location de camping-cars, itinéraires personnalisés et plus encore !</p>
+      <a href="#" class="btn">Réservez maintenant</a>
+    </section>
+
+    <section class="services">
+      <h3>Nos services</h3>
+      <div class="service-list">
+        <div class="service">
+          <h4>Camping-cars modernes</h4>
+          <p>Des véhicules confortables, fiables et bien équipés.</p>
+        </div>
+        <div class="service">
+          <h4>Itinéraires sur mesure</h4>
+          <p>Planifiez votre voyage avec l’aide de nos experts.</p>
+        </div>
+        <div class="service">
+          <h4>Équipements en option</h4>
+          <p>Vélos, kits BBQ, lits enfants... voyagez léger !</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3>Contactez-nous</h3>
+      <form>
+        <input type="text" placeholder="Votre nom" required />
+        <input type="email" placeholder="Votre email" required />
+        <textarea placeholder="Votre message"></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MULTICAMP. Tous droits réservés.</p>
+    <p><a href="#">Mentions légales</a></p>
+  </footer>
+</body>
 </html>

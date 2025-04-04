@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfaf6;
+  color: #333;
+}
+header {
+  background-color: #4682B4;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background: #ffe4b5;
+  padding: 2rem;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4682B4;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.services {
+  padding: 2rem;
+  background: #fff;
+}
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.service {
+  flex: 1 1 200px;
+  padding: 1rem;
+  margin: 1rem;
+  background: #f0f8ff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.contact {
+  padding: 2rem;
+  background: #fafafa;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+input, textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
